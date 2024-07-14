@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/prabh/new git folder/GitHub_POM_Project/src/test/java/Testcases/gitflow.java">
+        <classes>
+            <class name="Testcases.gitflow">
+                <methods>
+                    <include name="login"/>
+                    <include name="createRepo"/>
+                    <include name="deleteRepo"/>
+                </methods></class>
+        </classes>
+    </test>
+</suite>
