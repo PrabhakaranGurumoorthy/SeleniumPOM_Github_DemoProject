@@ -17,18 +17,18 @@ public class gitflow extends common {
 
     String reponame="repo1";
     @BeforeClass
-void setobjects(){
-    home=new HomePage(driver);
-    login=new LoginPage(driver);
-    welcome=new WelcomePage(driver);
-    repo=new RepoPage(driver);
-    create=new Createrepo(driver);
-    setting=new SettingsPage(driver);
-}
+    void setobjects(){
+        home=new HomePage(driver);
+        login=new LoginPage(driver);
+        welcome=new WelcomePage(driver);
+        repo=new RepoPage(driver);
+        create=new Createrepo(driver);
+        setting=new SettingsPage(driver);
+    }
     @Test(priority = 1)
     void login(){
-    home.clicksignin();
-    login.login(prop.getProperty("username"),prop.getProperty("password"));
+        home.clicksignin();
+        login.login(prop.getProperty("username"),prop.getProperty("password"));
     }
     @Test(priority = 2)
     void createRepo(){
@@ -36,7 +36,7 @@ void setobjects(){
         create.enterrepodetails(reponame,"Automated by selenium");
         boolean selectedrepotype=create.getselectedrepotype();
         if (selectedrepotype==false){
-          create.clickrepo();
+            create.clickrepo();
         }
 //        Assert.assertTrue(repo.isrepocreated(reponame));
 
