@@ -33,26 +33,16 @@ public class gitflow extends common {
     @Test(priority = 2)
     void createRepo(){
         welcome.clicknewrepo();
+        create.clickrepo();
         create.enterrepodetails(reponame,"Automated by selenium");
-        boolean selectedrepotype=create.getselectedrepotype();
-        if (selectedrepotype==false){
-            create.clickrepo();
-        }
-//        Assert.assertTrue(repo.isrepocreated(reponame));
-
+        create.clickrepo();
     }
     @Test(priority = 3)
     void deleteRepo() {
         reponame = "repo1";
-        welcome.clicknewrepo();
-        create.enterrepodetails(reponame, "Autoamted by selenium");
-        boolean selectedrepotype = create.getselectedrepotype();
-        if (selectedrepotype) {
-            create.clickrepo();
-        }
-        Assert.assertTrue(repo.isrepocreated(reponame));
         repo.clicksetting();
-        setting.clickdeleterepo(reponame,"TestProfile-01");
+        setting.clickdeleterepo();
+        setting.confirmdeleterepo(reponame,"TestProfile-01");
         String deletemsg=welcome.getdeletemessage();
         System.out.println(deletemsg);
         Assert.assertTrue(deletemsg.contains("deleted"));

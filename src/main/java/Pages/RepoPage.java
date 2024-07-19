@@ -15,7 +15,7 @@ public class RepoPage extends SeleniumBase {
         return reponame1.equals(reponame);
     }
     public void clicksetting(){
-        WebElement settings=driver.findElement(By.linkText(properties.getProperty("repo.settings.linktext")));
+        WebElement settings=driver.findElement(By.cssSelector(properties.getProperty("repo.settings.cssselctor")));
         click(settings);
 
     }
