@@ -25,9 +25,6 @@ public class SeleniumBase {
         }
     }
 
-    public String gettittle(){
-        return driver.getTitle();
-    }
 
     public void click(WebElement ele){
         wait.until(ExpectedConditions.elementToBeClickable(ele));

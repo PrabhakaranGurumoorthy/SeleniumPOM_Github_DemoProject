@@ -12,9 +12,9 @@ public class Createrepo extends SeleniumBase {
        type(driver.findElement(By.xpath(properties.getProperty("repo.name.xpath"))),reponame);
         type(driver.findElement(By.xpath(properties.getProperty("repo.description.xpath"))),description);
     }
-    public boolean getselectedrepotype(){
-        return driver.findElement(By.xpath(properties.getProperty("repo.publicinput.xpath"))).isSelected();
-    }
+//    public boolean getselectedrepotype(){
+//        return driver.findElement(By.xpath(properties.getProperty("repo.publicinput.xpath"))).isSelected();
+//    }
     public void clickrepo(){
         click(driver.findElement(By.xpath(properties.getProperty("repo.createbtn.xpath"))));
     }

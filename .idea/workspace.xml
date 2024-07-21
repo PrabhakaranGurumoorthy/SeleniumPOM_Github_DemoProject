@@ -5,18 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cddfdd46-2250-4059-9e6d-0c9557bc803a" name="Changes" comment="Intial Commit">
+      <change afterPath="$PROJECT_DIR$/allure-results/5105fb38-2ab6-482a-b4bd-d25ff977a91d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6b1b09f8-575d-4dc8-b3d9-e3aac8f98413-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/75637543-b9f3-4ec5-9ff7-6a5245f1812f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bd8e21ce-d26c-434a-90b9-b63c7c603fef-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f2142b79-5f36-47dd-9877-b549fe33f774-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f4447259-0192-4cdd-b542-0c8a47ff8f0e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/._gitflow.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/._gitflow.java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Testcases.gitflow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - C__Users_prabh_new_git_folder_GitHub_POM_Project_testng_xml.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/locators.properties" beforeDir="false" afterPath="$PROJECT_DIR$/locators.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass/SeleniumBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseClass/SeleniumBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Createrepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Createrepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/RepoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/RepoPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/SettingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/SettingsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/gitflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/gitflow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" exportFormat="Xml" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -55,7 +80,8 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -69,8 +95,18 @@
   <component name="RunManager" selected="TestNG.C:/Users/prabh/new git folder/GitHub_POM_Project/testng.xml">
     <configuration name="C:/Users/prabh/new git folder/GitHub_POM_Project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GitHub_POM_Project" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -95,6 +131,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/prabh/new git folder/GitHub_POM_Project/testng.xml" />
+      <item itemvalue="TestNG.gitflow.login" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/prabh/new git folder/GitHub_POM_Project/testng.xml" />
@@ -127,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721135496295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Intial Commit">
+      <option name="closed" value="true" />
+      <created>1721357837607</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721357837607</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
